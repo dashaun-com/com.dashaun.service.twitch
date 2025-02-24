@@ -22,7 +22,7 @@ class Config {
         return new WebFluxConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/api/**")
+                registry.addMapping("/twitch/**")
                         .allowedOrigins("http://localhost:1313", "https://dashaun.com")
                         .allowedMethods("GET");
             }
