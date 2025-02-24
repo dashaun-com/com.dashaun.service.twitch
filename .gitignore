@@ -1,0 +1,5 @@
+.idea
+.spring
+.git-versioned-pom.xml
+manifest.yml
+target
